@@ -1,0 +1,22 @@
+{
+  "name": "speed-index-calculator",
+  "version": "0.0.1",
+  "description": "Returns the Speed Index for a given video using the WebPageTest visualmetrics library",
+  "repository": "cowchimp/speed-index-calculator",
+  "author": {
+    "name": "cowchimp",
+    "url": "http://blog.cowchimp.com"
+  },
+  "licenses": "MIT",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "dockerode": "^2.2.10"
+  },
+  "devDependencies": {
+    "mocha": "2.3.4"
+  }
+}
